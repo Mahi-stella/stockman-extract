@@ -1,4 +1,11 @@
 # stockman-extract
+!apt-get update
+!apt-get install -y poppler-utils
+!apt-get install -y libpoppler-cpp-dev
+!pip install pdf2image
+!pip install pytesseract
+!sudo apt install tesseract-ocr
+!pip install ace-tools
 import os
 os.environ['PATH'] += os.pathsep + '/usr/bin'
 import pytesseract
